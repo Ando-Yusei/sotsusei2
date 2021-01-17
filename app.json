@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "sinsatsu",
+    "slug": "sinsatsu",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra":{
+      "firebase": {
+         "apiKey": "AIzaSyDWjC6aEXEbr7uZ0eFQM8o9pr2iJm1ncE4",
+         "authDomain": "adachi-app.firebaseapp.com",
+         "projectId:": "adachi-app",
+         "storageBucket": "adachi-app.appspot.com",
+         "messagingSenderId": "900542964675",
+         "appId": "1:900542964675:web:7d740bfaadf50ad3385376"
+      }
+    }
+  }
+}
